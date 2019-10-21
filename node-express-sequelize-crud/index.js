@@ -26,5 +26,8 @@ User.post('/api/users', (req, res) => {
   //     "username": "Alice"
   //   }
   //   ```
+  // -[] Create a new user in the database __using the`User` model__
+  // - [] Respond with a`201` status code and an object representing the user in the body
+  // - [] If the query to the database fails, you should log the error and send back a`500` status code
 })
 
