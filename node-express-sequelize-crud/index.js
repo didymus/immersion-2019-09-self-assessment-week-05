@@ -52,3 +52,10 @@ User.put('/api/users/:id', (req, res) => {
   // - [] If a user with the`id` does not exist, you should send back a`404` status code
   // - [] If the query to the database fails, you should log the error and send back a`500` status code
 });
+
+User.delete('/api/users/:id', (req, res) => {
+// - [] Delete the user in the database with the`id` __using the`User` model__
+// - [] Respond with a`200` status code
+// - [] If a user with the`id` does not exist, you should send back a`404` status code
+// - [] If the query to the database fails, you should log the error and send back a`500` status code
+});
